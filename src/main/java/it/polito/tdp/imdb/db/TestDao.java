@@ -10,11 +10,11 @@ public class TestDao {
 	public void run() {
 		ImdbDAO dao = new ImdbDAO();
 		System.out.println("Actors:");
-		System.out.println(dao.listAllActors());
+		//System.out.println(dao.listAllActors().size());
 		System.out.println("Movies:");
-		System.out.println(dao.listAllMovies());
+		System.out.println(dao.listAllMovies().size());
 		System.out.println("Directors:");
-		System.out.println(dao.listAllDirectors());
+		System.out.println(dao.listAllDirectors().size());
 	}
 
 }
